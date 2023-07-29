@@ -42,3 +42,18 @@ INSERT INTO `usuarios` VALUES
 (3, 2022, true, 3),
 (4, 2020, false, 4),
 (5, 2019, true, 5);
+
+INSERT INTO `enderecos`(id, rua, numero, cep, bairro, cidade, estado, pais) VALUES
+(6, 'Rua Manuel Gomes', 888, '88900-453', 'Caneta', 'Curitiba', 'PR', 'Brasil'),
+(7, 'Rua Bino', 10, '12330-413', 'Caminhos', 'Curitiba', 'PR', 'Brasil'),
+(8, 'Rua Linux', 234, '88920-253', 'Note', 'Curitiba', 'PR', 'Brasil'),
+(9, 'Rua Piriquito', 76, '83900-333', 'Gaiolinha', 'Curitiba', 'PR', 'Brasil'),
+(10, 'Rua Amazonas', 112, '48950-000', 'Mata', 'Curitiba', 'PR', 'Brasil');
+
+INSERT INTO `cadastros` VALUES
+(6, 'Henry Vaca', '3894988829', '2004-01-01', 'Portugues', '6666666666', 'HenryV@hotmail.com', 'naofoidessavez', 6),
+(7, 'Franco Foda', '983829188', '1997-03-04', 'Brasileiro', '7777777777', 'FodaF@hotmail.com', 'tentenovamente', 7),
+(8, 'Asano Lima', '9812318111', '1998-02-01', 'Brasileiro', '8888888888', 'AssanoL@gmail.com', 'agoravai', 8),
+(9, 'Kanno Gomes', '8329382983', '1993-04-08', 'Brasileiro', '9999999999', 'Kanno@gmail.com', 'password1', 9),
+(10, 'Cornelios Braga', '8934852868', '2001-05-12', 'Brasileiro', '1010101010', 'Cornel@gmail.com', 'esqueciasenha', 10);
+
