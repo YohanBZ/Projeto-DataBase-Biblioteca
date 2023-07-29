@@ -13,3 +13,10 @@ INSERT INTO `enderecos`(id, rua, numero, cep, bairro, cidade, estado, pais) VALU
 (3, 'Rua Invocação do Mal', 666, '72000-666', 'Maldestino', 'Curitba', 'PR', 'Brasil'),
 (4, 'Rua Jacinto Machado', 69, '69006-001', 'Pinopolis', 'Curitba', 'PR', 'Brasil'),
 (5, 'Rua Frutas Verdes', 500, '74457-030', 'arvaria', 'Curitba', 'PR', 'Brasil');
+
+INSERT INTO `editoras`(id, nome, cnpj, telefone) VALUES
+(1, 'Editora Boa Morte', 356471878, 11111111),
+(2, 'Editora LeYa', 78677225, 22222222),
+(3, 'Editora ProvesLer', 66326783, 33333333),
+(4, 'Editora Quarto', 24343044, 44444444),
+(5, 'Editora SabiTudo', 52535055, 55555555);
