@@ -28,3 +28,10 @@ INSERT INTO `livros`VALUES
 (4, 'Mais uma noite besta na cidade de merda', 350, '2003-04-04', 2, 'Portugues', 456789123, 'Terror', 4, 4),
 (5, 'Pintou Clima', 400, '2004-05-05', 3, 'Inglês', 567891234, 'Comédia', 5, 5),
 (6, 'Pintou Clima', 300, '2010-05-05', 1, 'Inglês', 567891234, 'Comédia', 3, 5);
+
+INSERT INTO `cadastros` VALUES
+(1, 'Boga Mendez', '8927384928', '1990-01-01', 'Portugues', '1111111111', 'BigBoga@hotmail.com', 'senha123', 1),
+(2, 'Chaw lee', '98998277289', '1991-02-02', 'Corea', '2222222222', 'ChawLee@hotmail.com', 'senhaforte', 2),
+(3, 'Tu Morrow', '3456788830', '1992-03-03', 'Britânico', '3333333333', 'tuMorrow@gmail.com', 'invisivel32', 3),
+(4, 'Charmayanne de Luz', '1434542331', '1993-04-04', 'Brasileiro', '4444444444', 'Charmay@gmail.com', 'bloqueado89', 4),
+(5, 'Kaelisson Bruce Nuno', '3011818298', '1994-05-05', 'Brasileiro', '5555555555', 'BruceKN@gmail.com', 'loucodoFreeFire', 5);
