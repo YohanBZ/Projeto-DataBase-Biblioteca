@@ -20,3 +20,11 @@ INSERT INTO `editoras`(id, nome, cnpj, telefone) VALUES
 (3, 'Editora ProvesLer', 66326783, 33333333),
 (4, 'Editora Quarto', 24343044, 44444444),
 (5, 'Editora SabiTudo', 52535055, 55555555);
+
+INSERT INTO `livros`VALUES
+(1, 'Como falar com os mortos: um guia prático', 200, '2000-01-01', 1, 'Portugues', 123456789, 'Ficção', 1, 1),
+(2, 'Como defecar na floresta', 300, '2001-02-02', 1, 'Inglês', 234567891, 'Aventura', 2, 2),
+(3, 'Programador Problematico', 250, '2002-03-03', 2, 'Espanhol', 345678912, 'Romance', 3, 3),
+(4, 'Mais uma noite besta na cidade de merda', 350, '2003-04-04', 2, 'Portugues', 456789123, 'Terror', 4, 4),
+(5, 'Pintou Clima', 400, '2004-05-05', 3, 'Inglês', 567891234, 'Comédia', 5, 5),
+(6, 'Pintou Clima', 300, '2010-05-05', 1, 'Inglês', 567891234, 'Comédia', 3, 5);
