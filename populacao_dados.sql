@@ -35,3 +35,10 @@ INSERT INTO `cadastros` VALUES
 (3, 'Tu Morrow', '3456788830', '1992-03-03', 'Britânico', '3333333333', 'tuMorrow@gmail.com', 'invisivel32', 3),
 (4, 'Charmayanne de Luz', '1434542331', '1993-04-04', 'Brasileiro', '4444444444', 'Charmay@gmail.com', 'bloqueado89', 4),
 (5, 'Kaelisson Bruce Nuno', '3011818298', '1994-05-05', 'Brasileiro', '5555555555', 'BruceKN@gmail.com', 'loucodoFreeFire', 5);
+
+INSERT INTO `usuarios` VALUES
+(1, 2017, false, 1),
+(2, 2015, false, 2),
+(3, 2022, true, 3),
+(4, 2020, false, 4),
+(5, 2019, true, 5);
