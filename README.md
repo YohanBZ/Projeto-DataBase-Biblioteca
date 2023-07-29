@@ -13,7 +13,7 @@ Este projeto consiste em um banco de dados para uma biblioteca, visando atender 
 3.Abra o MySQL Workbench e conecte-se ao seu servidor MySQL.
 4.Abra o arquivo .sql do projeto no MySQL Workbench.
 5.Execute o script para criar o banco de dados e todas as suas tabelas.
-6.Comece a usar o banco de dados, inserindo dados, fazendo consultas, atualizações e remoções conforme necessário.
+6.Comece a usar, inserindo dados, fazendo consultas, atualizações etc.
 
 ```
 Este projeto visa aprimorar as habilidades em modelagem e manipulação de banco de dados, praticando a criação e gestão de várias tabelas, entidades e relações.
