@@ -1,6 +1,10 @@
+--criação do banco de bados biblioteca
+--Usando o comando create database para criação do banco de dados 
 create database if not exists biblioteca;
 use biblioteca; 
 
+
+----Criação da tabela autores nela ira contar todos os dados dos autores ultilizado
 CREATE TABLE if not exists `autores` (
   `id` INT PRIMARY KEY NOT NULL,
   `nome` VARCHAR(45) NOT NULL ,
@@ -8,6 +12,8 @@ CREATE TABLE if not exists `autores` (
   `nacionalidade` VARCHAR(20) NOT NULL
 );
 
+
+----Criação da tabela endereço nela ira conter todos os endereços
 CREATE TABLE if not exists `enderecos` (
   `id` INT PRIMARY KEY NOT NULL,
   `rua` VARCHAR(45) NOT NULL,
@@ -20,6 +26,8 @@ CREATE TABLE if not exists `enderecos` (
   `pais` VARCHAR(25) NOT NULL
 );
 
+
+----Criação da tabela editoras nela se encontra os dados das editoras dos livros
 CREATE TABLE if not exists `editoras` (
   `id` INT PRIMARY KEY NOT NULL,
   `nome` VARCHAR(45) NOT NULL,
@@ -27,6 +35,8 @@ CREATE TABLE if not exists `editoras` (
   `telefone` INT NOT NULL
 );
 
+
+---Criação da tabela livros nela consta informações sobre os livros disponivéis na biblioteca
 CREATE TABLE if not exists `livros` (
   `id` INT PRIMARY KEY NOT NULL,
   `titulo` VARCHAR(45) NOT NULL,
@@ -42,6 +52,8 @@ CREATE TABLE if not exists `livros` (
   FOREIGN KEY (id_editora_fk) REFERENCES editoras(id)
 );
 
+
+----Criação da tabela cadastro nela ira conter todos os dados de usuarios e funcionarios
 CREATE TABLE if not exists `cadastros` (
   `id` INT PRIMARY KEY NOT NULL,
   `nome` VARCHAR(45) NOT NULL,
@@ -55,6 +67,8 @@ CREATE TABLE if not exists `cadastros` (
   FOREIGN KEY (id_endereco_fk) REFERENCES enderecos(id)
 );
 
+
+----Criação da tabela usuarios nela ira conter todos os dados de todas os usuarios da biblioteca
 CREATE TABLE if not exists `usuarios` (
   `id` INT PRIMARY KEY NOT NULL,
   `ano_adessao` INT NOT NULL,
@@ -63,6 +77,8 @@ CREATE TABLE if not exists `usuarios` (
   FOREIGN KEY (id_cadastro_fk) REFERENCES cadastros(id)
 );
 
+
+---Criação da tabela funcionario nela se encontra os dados cadastrais dos funcionarios dentro da empresa
 CREATE TABLE if not exists `funcionarios` (
   `id` INT PRIMARY KEY NOT NULL,
   `salario` DECIMAL(9,2) ,
@@ -72,6 +88,7 @@ CREATE TABLE if not exists `funcionarios` (
   FOREIGN KEY (id_cadastro_fk) REFERENCES cadastros(id)
 );
 
+---Criação da tabela emprestimo nela temos os dados de emprestimos da biblioteca
 CREATE TABLE if not exists `emprestimos` (
   `id` INT PRIMARY KEY NOT NULL,
   `data_emprestimo` DATETIME NOT NULL,
