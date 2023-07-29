@@ -57,3 +57,9 @@ INSERT INTO `cadastros` VALUES
 (9, 'Kanno Gomes', '8329382983', '1993-04-08', 'Brasileiro', '9999999999', 'Kanno@gmail.com', 'password1', 9),
 (10, 'Cornelios Braga', '8934852868', '2001-05-12', 'Brasileiro', '1010101010', 'Cornel@gmail.com', 'esqueciasenha', 10);
 
+INSERT INTO `funcionarios`VALUES
+(1, 1500.00, 'Bibliotecario', '2020-01-01', 6),
+(2, 1500.00, 'Bibliotecario', '2021-02-02', 7),
+(3, 2300.00, 'Segurança', '2022-03-03', 8),
+(4, 4000.00, 'Sub-Gerente', '2021-04-04', 9),
+(5, 5000.00, 'Gerente', '2022-05-05', 10);
